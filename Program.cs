@@ -6,12 +6,30 @@ using System.Threading.Tasks;
 
 namespace RestaurantApp
 {
+    public class Restaurant {
+        public int id { get; set; };
+        public String name { get; set; };
+        public String type { get; set; };
+        public double rating { get; set; };
+
+        public Restaurant(int id,string name,string type,double rating) 
+        {
+            this.id = id;
+            this.name = name;
+            this.type = type;
+            this.rating = rating;
+        }
+
+        
+    }
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("HELLO SIT1/1");
-            Console.WriteLine("Week2");
+            new Restaurant(1, "Quanjude Roast Duck", "Beijing Cuisine", 4.5),
+            new Restaurant(2, "Donglaishun Hot Pot", "Hot Pot", 4.6),
+            new Restaurant(3, "Din Tai Fung", "Taiwanese Cuisine", 4.7)
+
         }
     }
 }
