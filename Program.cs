@@ -34,7 +34,7 @@ namespace RestaurantApp
 
             foreach (var r in restaurants)
             {
-                Console.WriteLine($"ID : {r.id}, Name : {r.name}, Type : {r.type}, Rating : {r.rating}");
+                Console.WriteLine($"ID : {r.id} | Name : {r.name} | Type : {r.type} | Rating : {r.rating}");
             }
 
         }
