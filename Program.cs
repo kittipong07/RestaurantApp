@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 namespace RestaurantApp
 {
     public class Restaurant {
-        public int id { get; set; };
-        public String name { get; set; };
-        public String type { get; set; };
-        public double rating { get; set; };
+        public int id { get; set; }
+        public String name { get; set; }
+        public String type { get; set; }
+        public double rating { get; set; }
 
         public Restaurant(int id,string name,string type,double rating) 
         {
